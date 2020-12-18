@@ -1,5 +1,3 @@
-########### WGS inbreeding coefficient measure 
-
 #Create an emtpy matrix
 x <-matrix(nrow = 0 , ncol = 5)
 #Transform this matrix in dataframe
