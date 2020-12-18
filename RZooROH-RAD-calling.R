@@ -1,8 +1,8 @@
 ## RZooROH calling function
 
 ############ RAD_sub
-# go the directory where the files 
-setwd("C:/Users/chaym/Desktop/FSP/firststep/RzooROH/")
+# set the directory 
+setwd("./")
 
 library(RZooRoH)
 library(foreach)
