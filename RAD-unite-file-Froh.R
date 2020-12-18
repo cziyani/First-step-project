@@ -1,6 +1,5 @@
 ######### RAD_sub unite file for Froh measurement
 files_1 <- Sys.glob("./*_F_RzooROH_TMP.txt")
-
 #Create an emtpy matrix
 x <-matrix(nrow = 0 , ncol = 5)
 #Transform this matrix in dataframe
@@ -19,7 +18,7 @@ for (f in files_1) {
     #extract just the number of Replicate from each file name by deleting the "_"
     Replicate <- strsplit (Replicate1 , split = "_" )[[1]][2]
 
-  ##create a df
+  ##read the file 
   df <- read.table(f ,header = T )
 
   ##rename the columns
