@@ -1,7 +1,8 @@
 ##################### WGS
 
-##go to files directory
-setwd("C:/Users/chaym/Desktop/FSP/firststep/RzooROH/WGS/")
+##set the directory
+setwd("./")
+
 library(RZooRoH)
 library(foreach)
 library(doParallel)
