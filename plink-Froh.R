@@ -1,9 +1,4 @@
-################### R
-
-## Measure the inbreeding coefficient 
-
-##the the directery which contains the files
-
+##set the directory
 setwd("./..")
 
 #List all the .hom.indiv files and store them in one list
