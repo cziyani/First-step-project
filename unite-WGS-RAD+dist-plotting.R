@@ -1,5 +1,5 @@
-#################unite RAD_sub_dis and WGS_dis files wich contains the one ROH per row and plot
-#Read the dataframe
+
+#Read the file
 dta <- read.table("my_final_RAD_dis_Rzoo_out", header = T)
 
 #Add a column, filled with 0, to be the future ROH-CLASS column
