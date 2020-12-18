@@ -1,7 +1,5 @@
-##ROHS distribution measure
-
-##the the directery which contains the files
-setwd("./...")
+##the the directery s
+setwd("./")
 #List all the .hom.indiv files and store them in one list
 Lsub <- Sys.glob("./*.hom" ) ##RAD_sub
 Lwgs <- Sys.glob("./wgs/*.hom" ) ##WGS
