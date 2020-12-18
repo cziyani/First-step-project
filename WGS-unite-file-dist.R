@@ -1,6 +1,5 @@
-############# WGS ROHs distribution
 
-##go to the directero of files
+##set the directory
 setwd("")
 
 ##List all the TMP files and store them in one list
