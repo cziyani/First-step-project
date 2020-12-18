@@ -1,4 +1,4 @@
-##go to the files directory
+##set the directory
 setwd()
 
 ##List all the TMP files and store them in one list 
