@@ -6,28 +6,28 @@
 
 ## Plink distributions
 
-1)list the fils in one list
-2)create a function
-3)create an empty file that we will fill by the for loop function within our file list
-4)loop through the list of file to fill the matrix
-5)extract sim_id, Nb_rad_frag, replicate from the file name
-6)read the file
-7)create 3 vectors : Sim_id, Frag, Replicate
-8)unite the 3 vectors with dateframe of each file
-9)bind the final dataframe with the matrix
-10)launch the function with both seq_teq and merge the result
-11)save the dataframe with write.table function
-12)read the file saved before
-13)classify the ROHs depending on their length
-14)Calculate the sum of ROHs for each roh class, for each Replicate, in each individual, for each Sequencing technique and Simulation
-15)create a matrix with sim_id, nb_frag, replicate and fill it with a for loop for RAD_seq and WGS
-16)save file
-17)read file
-18)Calculate mean KB per individual by CLASS & SEQ TECH
-19)save the file
-20)read the file
-21)order the ROHs class
-22)plot the distribution
+- list the fils in one list
+- create a function
+- create an empty file that we will fill by the for loop function within our file list
+- loop through the list of file to fill the matrix
+- extract sim_id, Nb_rad_frag, replicate from the file name
+- read the file
+- create 3 vectors : Sim_id, Frag, Replicate
+- unite the 3 vectors with dateframe of each file
+- bind the final dataframe with the matrix
+- launch the function with both seq_teq and merge the result
+- save the dataframe with write.table function
+- read the file saved before
+- classify the ROHs depending on their length
+- Calculate the sum of ROHs for each roh class, for each Replicate, in each individual, for each Sequencing technique and Simulation
+- create a matrix with sim_id, nb_frag, replicate and fill it with a for loop for RAD_seq and WGS
+- save file
+- read file
+- Calculate mean KB per individual by CLASS & SEQ TECH
+- save the file
+- read the file
+- order the ROHs class
+- plot the distribution
 
 ## RZooROH ROH calling
 
