@@ -1,10 +1,10 @@
 # First-step-project
-####Plink calling
+## Plink calling
 
-1)coverts the vcfs format to a binary format by --make-bed function
-2)rohs calling using homozig function
+- coverts the vcfs format to a binary format by --make-bed function
+- rohs calling using homozig function
 
-####Plink distributions
+## Plink distributions
 
 1)list the fils in one list
 2)create a function
@@ -29,7 +29,7 @@
 21)order the ROHs class
 22)plot the distribution
 
-#########RZooROH ROH calling
+## RZooROH ROH calling
 
 1)install RZooROH /foreach / doParallel packages
 2)library RZooROH /foreach/ doParallel
@@ -48,7 +48,7 @@
 15)create a dataframe wich contain fROH
 16 save FROH file 
 
-########unite files for FROH measurement: RAD_sub and WGS
+## unite files for FROH measurement: RAD_sub and WGS
 
 1)list the files in one list
 2)create a matrix and rename the columns
@@ -59,7 +59,7 @@
 7)unite the dataframe with the matrix
 8)save the file 
 
-########unite files for rohs ditributions measurement RAD_sub and WGS
+## unite files for rohs ditributions measurement RAD_sub and WGS
 
 1)list the files in one list
 2)create a matrix and reaname the columns
@@ -70,7 +70,7 @@
 7)unite the dataframe with the matrix
 8)save the file 
 
-#######unite RAD_sub and WGS Froh files + plot
+## unite RAD_sub and WGS Froh files + plot
 
 1)read files 
 2)merge the files by Sim_ID and ID 
@@ -81,7 +81,7 @@
 7)loop through RAD_fragment levels and calculte the mean of ROHs length depending on SIM_ID  and ID for both seq_teq
 8)plot the FROH of wgs vs rad_sub
 
-########unite RAD_sub and WGS dist + plot
+## unite RAD_sub and WGS dist + plot
 
 1)read RAD_sub file
 2)add a ROH-class column to the dataframe
@@ -99,7 +99,7 @@
 14)read the file
 15)do the plotting after ordering the ROHs classes
 
-####### WGS FROH of RZooROH and PLINK
+## WGS FROH of RZooROH and PLINK
 
 1)set the directory of files
 2)read the files and assign them to a variable
@@ -108,7 +108,7 @@
 5)plot the plink wgs-Froh vs RZooROH wgs-Froh 
 
 
-#######PLINK FROH
+## PLINK FROH
 
 1)list files of RAD_sub and WGS in one list(each one in a list)
 2)create a function
