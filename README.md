@@ -31,7 +31,7 @@
 
 ## RZooROH ROH calling
 
-1)install RZooROH /foreach / doParallel packages
+- install RZooROH /foreach / doParallel packages
 2)library RZooROH /foreach/ doParallel
 3)list files in one list
 4)create a matrix that we wil fill with a for loop within files
