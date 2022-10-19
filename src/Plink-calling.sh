@@ -1,12 +1,11 @@
-################### terminal
+# Bash Script
 
-##script of calling in the terminal :
 #!/bin/bash
 
-##list all the files in one list
+## List all the files in one list
 VCFs=/mnt/c/Users/chaym/Desktop/masters1/firststep/*.vcf
 
-##loop through the files
+## Loop through the files
 for vcf in ${VCFs}
 do
 	
